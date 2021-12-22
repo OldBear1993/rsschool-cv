@@ -1,2 +1,3 @@
 # rsschool-cv
-init: start project
+
+https://OldBear1993.github.io/rsschool-cv/cv
