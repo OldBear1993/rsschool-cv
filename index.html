@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CV</title>
+</head>
+<body>
+    <div class="flex">
+        <div class="aside-sec">
+            <img class="photo" src="./assets/img/photo.jpeg" alt="photo">
+            <aside class="aside">
+                <div class="aside-cont">
+                    <div class="inform">
+                        <ul class="contact-list">
+                            <li>
+                                <p class="bold">Location</p>
+                                <a href="https://www.google.com/maps/@53.905285,27.5527961,12z">Minsk, Belarus</a>
+                            </li>
+                            <li>
+                                <p class="bold">Phone</p>
+                                <a href="tel:375255442382">+375 25 544 23 82</a>
+                            </li>
+                            <li>
+                                <p class="bold">Email</p>
+                                <a href="mailto:ef.hayne@gmail.com">ef.hayne@gmail.com</a>
+                            </li>
+                            <li>
+                                <p class="bold">Telegram</p>
+                                <a href="https://t.me/Mekishi">@mekishi</a>
+                            </li>
+                            <li>
+                                <p class="bold">GitHub</p>
+                                <a href="https://github.com/OldBear1993">@OldBear1993</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="inform">
+                        <h2>Languages</h2>
+                        <ul>
+                            <li>English B1/B2</li>
+                            <li>Russian Native</li>
+                        </ul>
+                    </div>
+                    <div class="inform">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Git, GitHub</li>
+                            <li>MJML</li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+        </div>
+        <div class="main-sec">
+            <div class="main-con">
+                <header class="header">
+                    <h1>Kirill Kasabutski</h1>
+                    <h2>Junior Frontend Developer</h2>
+                </header>
+                <main class="hero">
+                    <div class="hero-info">
+                        <h2>About me</h2>
+                        <p>I&nbsp;am a&nbsp;hardworking and ambitious individual with a&nbsp;great passion for IT. I&nbsp;am currently studying Frontend speciality at&nbsp;Rolling Scopes courses. I&nbsp;have excellent communication skills, enabling me&nbsp;to&nbsp;effectively communicate with a&nbsp;wide range of&nbsp;people. I&nbsp;am looking for a&nbsp;full-time position in&nbsp;the industry in&nbsp;which&nbsp;I can put my&nbsp;knowledge and experience into practice, which will ultimately benefit the operations of&nbsp;the organisation that&nbsp;I work for.</p>
+                    </div>
+                    <div class="hero-info">
+                        <h2>Code example</h2>
+                        <p class="challenge">
+                            Your code must return true or false (not 'true' and 'false') depending upon whether the given number is a Narcissistic number in base 10.
+                        </p>
+                        <div class="code">
+                            <code>
+                                function narcissistic(value) {
+                                    const arr = value.toString().split('');<br>
+                                    let a = 0;<br><br>
+                                    
+                                    for (let x = 0; x &lt; arr.length; x++ ) {<br>
+                                        &emsp;a = Math.pow(arr[x], arr.length) + a;<br>
+                                    } <br><br>
+                                    
+                                    if (a == value) { <br>
+                                        &emsp;return true; <br>
+                                        &emsp;console.log(value + " is nartcissistic");<br>
+                                    } else { <br>
+                                        &emsp;return false; <br>
+                                        &emsp;console.log(value + " is not nartcissistic") <br>
+                                    } <br>
+                                }
+                            </code>
+                        </div>
+                    </div>
+                    <div class="hero-info">
+                        <h2>Courses</h2>
+                        <ul>
+                            <li>HTML, CSS and JavaScript on SoloLearn (completed)</li>
+                            <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                        </ul>
+                    </div>
+                    <div class="hero-info">
+                        <h2>Projects</h2>
+                        <ul>
+                            <li><a href="https://github.com/OldBear1993/rsschool-cv">rsschool-cv</a></li>
+                        </ul>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <a href="https://rs.school/js/"><img class="footer-logo footer-i" src="./assets/img/rs_school_js.svg" alt="rs_logo"></a>
+        <small class="footer-i">@2021</small>
+        <a href="https://github.com/OldBear1993"> <img class="footer-logo footer-i" src="./assets/img/GitHub-Emblem.png" alt="git_hub_emblem"></a>
+    </footer>
+</body>
+</html>
