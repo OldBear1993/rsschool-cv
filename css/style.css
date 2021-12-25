@@ -29,4 +29,149 @@
 body {
     font-family: var(--font-family);
     font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 34px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.flex {
+    display: flex;
+}
+
+.main-sec {
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.aside-sec {
+    min-width: 30%;
+}
+
+.photo {
+    max-width: 100%;
+    padding-bottom: 24px;
+}
+
+.aside {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 3px;
+}
+
+.contact-list li:not(:last-child) {
+    padding-bottom: 12px;
+}
+
+.inform {
+    padding-bottom: 32px;
+}
+
+
+.inform h2 {
+    padding-bottom: 22px;
+}
+
+.main-con {
+    padding-top: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.header h1 {
+    padding-bottom: 9px;
+}
+
+.header h2 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 28px;
+    padding-bottom: 40px;
+}
+
+.hero-info {
+    padding-bottom: 40px;
+}
+
+.hero-info h2 {
+    padding-bottom: 24px;
+}
+
+.challenge {
+    padding-bottom: 15px;
+}
+
+.code {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-style: oblique;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 35px;
+}
+
+.footer-logo {
+    height: 100%;
+}
+
+.footer-i {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media (max-width: 576px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .inform:last-child {
+        padding-bottom: 0;
+    }
+
+    img {
+        width: 100%;
+    }
+    
 }
